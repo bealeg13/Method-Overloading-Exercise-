@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //.Add(2, 4);
+            //Methods.Add(3.6, 5.4);
+            Console.WriteLine(Methods.Add(2, 3, true));
         }
     }
 }
