@@ -26,9 +26,13 @@ namespace MethodOverloading
             {
                 return ($"{sum} dollar"); 
             }
-            else 
+            else if (c == true && sum > 1)
             {
                 return ($"{sum} dollars");
+            }
+            else
+            {
+                return sum.ToString();
             }
         }
     }
